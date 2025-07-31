@@ -1,0 +1,36 @@
+{
+  "name": "csp-entra-saml-app",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "sandbox": "npx ampx sandbox",
+    "deploy": "npx ampx deploy"
+  },
+  "keywords": ["aws-amplify", "entra-id", "saml", "customer-support"],
+  "author": "",
+  "license": "ISC",
+  "description": "Customer Support Portal with Autodesk Entra ID SAML authentication via AWS Amplify",
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.16.1",
+    "@aws-amplify/backend-cli": "^1.8.0",
+    "@types/node": "^24.1.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "aws-cdk-lib": "^2.204.0",
+    "constructs": "^10.4.2",
+    "esbuild": "^0.25.8",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "@aws-amplify/ui-react": "^6.11.2",
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.7",
+    "aws-amplify": "^6.15.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}
